@@ -1,0 +1,60 @@
+.infoblock {
+	height: 550px;
+  	position: relative;
+  	top: -30px;
+  	background-position: 100% 0;
+}
+
+.infoblock h2 {
+	margin: 75px auto;
+	text-align: center;
+}
+
+.infoblock__links {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 33.33%;
+  margin: 0 auto;
+  transform: translateX(-60%);
+}
+
+.infoblock__links a img {
+  margin:  0 12px 15px 0;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  transition-duration: .4s;
+}
+
+.infoblock__links a img:hover {
+  border: 1px solid #005398;
+  border-radius: 2px;
+  transition: .4s ease-out;
+  box-shadow: 1px 2px 11px 1.2px #0076BC;
+}
+
+.lawpadd {
+	margin: 30px 50px;
+}
+
+.law {
+	  text-decoration: none;
+	  font-weight: 400;
+	  font-size: 28px;
+	  color: #005398;
+	  line-height: 42px;
+	  text-shadow: 0 .15px 0 #ccc,
+	              0 .25px .15px rgba(0,0,0,.1),
+	              0 0 2px rgba(0,0,0,.1),
+	              0 .5px .75px rgba(0,0,0,.15);
+	  transition-duration: .5s;
+}
+
+.law:hover {
+	text-decoration: underline;
+  	transition: .4s ease-out;
+	  text-shadow: 0 .35px 0 #ccc,
+	              0 .45px .35px rgba(0,0,0,.1),
+	              0 0 2.1px rgba(0,0,0,.1),
+	              0 .7px .75px rgba(0,0,0,.15);
+}

@@ -1,0 +1,56 @@
+.actsblock {
+	height: 850px;
+  	color: #004389;
+  	position: relative;
+  	top: -29px;
+}
+
+.actsoverlay {
+	background-color: rgba(138, 180, 204, .85);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+}
+
+.actspadding {
+	padding: 25px 50px;
+	text-align: justify;
+}
+
+.actspadding h2 {
+	line-height: 42px;
+	text-align: justify;
+}
+
+.actspadding p a,
+.actspadding ul li a {
+	  text-decoration: none;
+	  font-weight: 400;
+	  font-size: 24px;
+	  color: #005398;
+	  text-shadow: 0 .15px 0 #ccc,
+	              0 .25px .15px rgba(0,0,0,.1),
+	              0 0 2px rgba(0,0,0,.1),
+	              0 .5px .75px rgba(0,0,0,.15);
+	  transition-duration: .5s;
+}
+
+.actspadding p a:hover,
+.actspadding ul li:hover {
+	text-decoration: underline;
+  	transition: .4s ease-out;
+	  text-shadow: 0 .35px 0 #ccc,
+	              0 .45px .35px rgba(0,0,0,.1),
+	              0 0 2.1px rgba(0,0,0,.1),
+	              0 .7px .75px rgba(0,0,0,.15);
+}
+
+.actspadding ul li a:hover {
+	  text-shadow: 0 .35px 0 #ccc,
+	              0 .45px .35px rgba(0,0,0,.1),
+	              0 0 2.1px rgba(0,0,0,.1),
+	              0 .7px .75px rgba(0,0,0,.15);
+}
